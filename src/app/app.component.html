@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="topnav">
+    <a class="active" href="#Logo">Logo</a>
+    <a  href="#ProjectName">ProjectName</a>
+    <li style="float:right"><a  href="#LogIn">LogIn</a> </li>
+    
+  </div>
+  
+  
+<div class="container-fluid">
+  <div class="vertical-menu">
+    
+    <div class="menu">
+      <div class="row">
+        <div class="list-group col-md-3" >
+          <a routerLink="/app-dash-board" class="list-group-item style ">Single Order</a>
+          <a routerLink="/login" class="list-group-item">Multiple Order</a>
+          <a routerLink="/reports" class="list-group-item">Reports</a>
+          <a routerLink="/form" class="list-group-item">Form Page</a>
+          
+        </div>
+        <div class="col-md-9">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
